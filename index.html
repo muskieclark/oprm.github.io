@@ -9,10 +9,40 @@
     body {background-color:#1A2D38;}
        p {font-family:roboto, helvetica; color:white;}
        a {font-family:roboto, helvetica; color:white; text-decoration:none;}
+    form {font-family:roboto, helvetica; color:cornflowerblue; text-decoration:none;}
        h1{font-size:72px; color:#3D9BD1;}
        h2{color:#94CFF1 font-family:roboto, helvetica;}
+    
+          * {
+  box-sizing: border-box;
+  }
+
+ 
+  .column {
+  float: left;
+  padding: 10px;
+  height: 300px;
+  }
+
+  .left {
+  width: 45%;
+  }
+
+  .right {
+  width: 55%;
+  }
+
+ 
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
   </style>
-  <h1>Operation: Remove Mason</h1>
+  <div class="row">
+    <div class="column left">
+      </style>
+        <h1>Operation: Remove Mason</h1>
   <h2>Information</h2>
   <p>the OPRM (Operation: Remove Mason) is an orginazation developed by Gentry Neptune, Brady Campbell, Weston Obermeyer and Gunnor Garcia in 2023 in the attempt to remove Mason from the school.<br>
   Weston went as far as to code a website for the OPRM as to further inform the public. View the following link for more information.</p>
@@ -38,5 +68,15 @@
   <br>
   <p>html by weston obermeyer</p><br>
   <p>(c) 2023 OPRM</p>
-  </body>
-</html>
+    </div>
+      <div class="column right">
+        <form action="mailto:myteam.wa@gmail.com" method="post" enctype="text/plain">
+      comment/question:<br>
+      <input type="text" name="comment"><br>
+      post to FAQ? (y/n)<br>
+      <input type="text" name="post comment?(y/n)"><br>
+      <input type="submit" value="comment">
+    </form>
+          
+        
+  
